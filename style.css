@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#comments-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#comments-list {
+    margin-bottom: 20px;
+}
+
+.comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#comment-input {
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
